@@ -7,8 +7,8 @@ import { User } from '../models/user';
   providedIn: 'root'
 })
 export class ApiService {
-  private basicUrlLogin = 'https://your-api-url.com/login'; // Sostituisci con il tuo URL reale
-  private basicUrlRefresh = 'https://your-api-url.com/refresh'; // Sostituisci con il tuo URL reale per il refresh token
+  private basicUrlLogin = 'https://your-api-url.com/login';
+  private basicUrlRefresh = 'https://your-api-url.com/refresh'; 
 
   constructor(private http: HttpClient) {}
 
