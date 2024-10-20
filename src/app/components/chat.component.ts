@@ -31,9 +31,8 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000; /* Assicurati che sia sopra gli altri elementi */
+    z-index: 1000;
   }
-  
   .chat-box {
     background: white;
     border-radius: 8px;
