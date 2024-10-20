@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background: rgb(219, 219, 219);
+  background: linear-gradient(
+    0deg,
+    rgba(219, 219, 219, 1) 0%,
+    rgba(226, 45, 253, 1) 100%
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.btn-my {
+  cursor: pointer;
+  border: 1px solid rgb(255, 255, 255);
+  font-family: "system-ui";
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 100%;
+  transition: 1000ms;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 0px 36px;
+  background: linear-gradient(
+    90deg,
+    rgb(198, 184, 219) 0%,
+    rgb(197, 0, 204) 100%
+  );
+  --hover-width: 239px;
+  --hover-bgc: #ba1bde;
+  --hover-color: #ffffff;
+  --hover-borderSize: 0px;
+}
+.btn-my:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(186, 27, 222) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-color: rgb(204, 0, 105);
+    border-width: 0px;
+    border-style: solid;
+    }
