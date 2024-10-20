@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <div class="container-fluid">
       <h1 class="text-center text-white text-shadow">Welcome to {{ title }}!</h1>
-      <app-login />
+
       <router-outlet /> 
     </div>
   `,
